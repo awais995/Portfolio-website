@@ -55,6 +55,9 @@ const Header = () => {
           <Link href="/contact">
             <p className="block px-4 py-2">Contact</p>
           </Link>
+          <Link href="/projects">
+            <p className="block px-4 py-2">Projects</p>
+          </Link>
         </nav>
       )}
     </header>
