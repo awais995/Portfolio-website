@@ -8,9 +8,14 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        "custom-gradient": "linear-gradient(90deg,#4b6cb7, #182848)",
+      },
+      screens:{
+        sm: "480px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
       },
     },
   },
